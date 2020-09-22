@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('tes-template',function(){
-    return view('template');
+Route::get('karyawan',function(){
+    return view('karyawan.index');
+});
+
+Route::get('departemen',function(){
+    return view('departemen.index');
 });
